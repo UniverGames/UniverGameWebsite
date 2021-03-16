@@ -1,69 +1,32 @@
-@media only screen and (min-width: 800px) 
-{
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #ffffff;
-    scroll-behavior: auto;
-}
-nav{
-    width: 100%;
-    height: 60px;
-    background-color:  #ffffff ;
-}
-
-#UniverGame_Logo img {
-    padding-top: 0px;
-    padding-left: 150px;
-}
-.UniverGame_MainMenu{
-    padding-left: 250px;
-    list-style: none;
-    display: inline-block;
-
-}
-.UniverGame_MainMenu li{
-    padding-bottom:  20px;
-    list-style: none;
-    display: inline-block;
-    float: left;
-}
-.UniverGame_MainMenu li a{
-    display: flex;
-    padding: 0 20px;
-    text-decoration: none;
-    font-size: 20px;
-    color:#900C3F
-}
-.UniverGame_MainMenu li a:hover{
-    color:#B50F4F
-}
-.Login_Register-Menu{
-    padding-top:  20px;
-    list-style: none;
-    display: inline-block;
-    padding-right: 10px;
-    float:right
-}
-.Login_Register-Menu a{
-    padding: 0 20px;
-    text-decoration: none;
-    font-size: 20px;
-    padding-right: 50px;
-    color:#900C3F
-}
+.fadedfx {
+    background-color: #fe5652;
+    visibility: hidden;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
