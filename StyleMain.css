@@ -1,4 +1,6 @@
 .UniverGame-MenuBar{
+    margin: 0%;
+    padding-top: -10px;
     height: 60px;
     width: 100%;
     background-color: white;
@@ -28,12 +30,12 @@
     text-decoration: none;
     list-style:none;
     display:inline-block;
-    color: rgb(112, 184, 212);
+    color: rgb(93, 168, 197);
 }
 .Cards{
     margin:0%;
     margin-top: 30px;
-    margin-left: -50px
+    padding-left: 8%;
 }
 .Cards li{
     list-style:none;
@@ -42,18 +44,63 @@
 }
 section {
     height: 50%;
-    display:flex;
+    display:flexbox;
 }
 .Card{
-    background-color: #eeeeee;
+    background-color: #dfdede;
     box-shadow: 1em 1em 1em rgba(0,0,0,0.219);
-    width: 1200px;
-    height:400px;
+    width: 1000px;
+    height:300px;
     border-radius: 30px;
     display: flexbox;
 }
-.GameDevelopement{
+div .GameDevelopement{
     display: flexbox;
+    width: 400px;
+    height: 100%;
+    border-radius: 30px;
+}
+div.Card_Context #Card_Title{
+    display: flex;
+    margin-top: -29%;
+    margin-left: -0%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+div.Card_Context #Card_Context{
+    display: flex;
+    margin-top: -1%;
+    padding-left: 25%;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+.Cards1{
+    margin:0%;
+    margin-top: 30px;
+    padding-left: 8%;
+}
+.Cards1 li{
+    list-style:none;
+    display:inline-block;
+    padding-left: 0%;
+}
+section {
+    height: 50%;
+    display:flexbox;
+}
+.Card1{
+    background-color: #dfdede;
+    box-shadow: 1em 1em 1em rgba(0,0,0,0.219);
+    width: 350px;
+    height:400px;
+    border-radius: 30px;
+    display: flex;
+}
+div .GameDevelopement_Card{
+    display: flex;
     width: 100%;
+    height: 100%;
     border-radius: 30px;
 }
